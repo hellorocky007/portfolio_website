@@ -11,7 +11,7 @@
     <div id="header">
         <div class="container">
             <nav>
-                <img src="img/rock.jpg" alt="" class="src">
+                <img src="img/rock.png" alt="" class="src">
                <ul id="sidemenu">
                 <li><a href="#header">Home</a></li>
                 <li><a href="#about">About</a></li>
@@ -30,8 +30,9 @@
             </nav>
            
             <div class="header_text">
-                <p>Developer</p>
-                <h1>Hi ,I'm <span>Jay <br>bardhan singh </span><br>from India</h1>
+                
+                <h1>Hi ,I'm<br><span class="role">Developer</span><br></h1>
+                <p>Jay bardhan singh</p>
             </div>
         </div>
     </div>
@@ -151,7 +152,9 @@
             
                 <div class="layer">
                     <h3>Bloging App</h3>
-                    <p>I also created one bloging plateform where you can use this plateform to upload your daily blog using html, css, javaScript,nodejs,mongodb,etc</p>
+                    <p>I also created one bloging plateform where you can use this plateform to upload your daily
+                         blog using html,css,
+                        javaScript,nodejs,mongodb,etc</p>
                     <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
                 </div></div>
         </div>
@@ -234,6 +237,24 @@
         })
         .catch(error => console.error('Error!', error.message))
     })
-  </script
+  </script>
+
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+<script>
+  var typeData = new Typed(".role", {
+    strings: [
+      "Full Stack Developer",
+      "Web Developer",
+      "UI-UX Designer",
+      "Backend Developer",
+      "Coder",
+    ],
+    loop: true,
+    typeSpeed: 100,
+    backSpeed: 80,
+    backDelay: 1000,
+  });
+  </script>
 </body>
 </html>
